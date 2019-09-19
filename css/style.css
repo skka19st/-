@@ -1,3 +1,58 @@
+html, body{
+    margin:0px; padding:0;
+    padding: 2px;
+    background-color: pink;
+} 
+img {
+    width:200px;
+}
+#bbx1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+#box1 div{
+    /*height: 200px; */
+  /* width: 100%;
+     display: flex;
+     flex-wrap: wrap;*/
+
+    /* flex-direction: column;
+     justify-content: space-around; */
+     background-color: red;
+ }
+ ul {
+    list-style-type: none; 
+ }
+ #box1 div img {
+    width:200px;
+    float: left;  
+    background-color: blueviolet;
+   /* margin-right: 10px;
+    margin-top:10px; */
+ }
+#box2 ul {
+    /* width: 25px;*/ 
+  /*  display: flex;
+    flex-wrap: wrap; */
+    /*float: right;*/
+    background-color: green;
+}
+#box2 ul li {
+    width: 110px;
+    list-style-type: none;
+}
+
+#egentext{
+    clear: both;
+    padding-left: 5px;
+    /*margin-top: 5px;
+    margin-right: 5px;*/
+    background-color: gray;
+}
+#merinfo {
+    background-color: burlywood
+}
+
 /*html, body{
     margin:0; padding:0;
     height:100%;
@@ -39,35 +94,46 @@ img {
 }*/
 @media only screen and (max-width: 360px){  /* smal skärm = små bilder */
 html, body{
-    margin:0; padding:0;
-    padding: 5px;
-    font-size: 80%;
+    margin:0px; padding:0;
+    padding: 0px;
+    font-size: 3px;
     background-color: pink;
 } 
 #box1{
     height: 30%; 
-     display: flex;
-     flex-wrap: wrap;
-    /* flex-direction: column;*/
-     justify-content: space-around; 
+    width: 100%;
+    padding: 2px;
+    /* display: flex;
+     flex-wrap: wrap;*/
+
+    /* flex-direction: column;
+     justify-content: space-around; */
      background-color: red;
  }
-img {
-    width:50%;
+ #box1 div img {
+    width:40px;
    /* float: left;  */
     background-color: blueviolet;
-    margin-right: 10px;
-    margin-top:10px;
-}  
-#box1 div{
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
+   /* margin-right: 10px;
+    margin-top:10px; */
+ }
+#box1 ul {
+    /* width: 25px;*/ 
+  /*  display: flex;
+    flex-wrap: wrap; */
+
     background-color: green;
 }
+#box1 ul li {
+    width: 25px;
+    list-style-type: none;
+}
+
 #egentext{
     clear: both;
     padding: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
     background-color: blue;
 }
 }
