@@ -1,0 +1,73 @@
+/*html, body{
+    margin:0; padding:0;
+    height:100%;
+    padding:20px;
+    background-color: turquoise;
+}
+ul li{
+    list-style-type: none; 
+    padding-left: -10px;
+    background-color: green;
+}
+img {
+    width:40%;
+    float: right;
+}
+#box1{
+   /* height: 30%; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;*/
+  /*  justify-content: space-around; 
+    background-color: blueviolet;
+}
+/*#arbete ul img{
+    width: 40%;
+    /*float: left;
+}
+#arbete ul{
+    width:30%;
+    margin-left: 5px; 
+}
+/*#egentext{
+    clear: both;
+}*/
+/*@media all and (max-width: 800px){     /* t ex läsplattor */
+   /* html, body{
+        background-color: grey;
+    }   
+}*/
+@media only screen and (max-width: 360px){  /* smal skärm = små bilder */
+html, body{
+    margin:0; padding:0;
+    padding: 5px;
+    font-size: 80%;
+    background-color: pink;
+} 
+#box1{
+    height: 30%; 
+     display: flex;
+     flex-wrap: wrap;
+    /* flex-direction: column;*/
+     justify-content: space-around; 
+     background-color: red;
+ }
+img {
+    width:50%;
+   /* float: left;  */
+    background-color: blueviolet;
+    margin-right: 10px;
+    margin-top:10px;
+}  
+#box1 div{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    background-color: green;
+}
+#egentext{
+    clear: both;
+    padding: 5px;
+    background-color: blue;
+}
+}
