@@ -1,92 +1,43 @@
 html, body{
     margin:0px; padding:0;
-    padding: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: pink;
 } 
 img {
     width:200px;
+    margin-right: 10px;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: brown
 }
 #bbx1 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: blueviolet;
 }
-#box1 div{
-    /*height: 200px; */
-  /* width: 100%;
-     display: flex;
-     flex-wrap: wrap;*/
-
-    /* flex-direction: column;
-     justify-content: space-around; */
-     background-color: red;
- }
- ul {
+#bbx2 {
+    display: column;
+    flex-wrap: wrap;
+}
+ul {
     list-style-type: none; 
  }
- #box1 div img {
-    width:200px;
-    float: left;  
-    background-color: blueviolet;
-   /* margin-right: 10px;
-    margin-top:10px; */
- }
-#box2 ul {
-    /* width: 25px;*/ 
-  /*  display: flex;
-    flex-wrap: wrap; */
-    /*float: right;*/
-    background-color: green;
-}
-#box2 ul li {
-    width: 110px;
-    list-style-type: none;
-}
-
 #egentext{
     clear: both;
-    padding-left: 5px;
-    /*margin-top: 5px;
-    margin-right: 5px;*/
     background-color: gray;
 }
 #merinfo {
     background-color: burlywood
 }
+a {
+    text-decoration: none;
+}
 
-/*html, body{
-    margin:0; padding:0;
-    height:100%;
-    padding:20px;
-    background-color: turquoise;
-}
-ul li{
-    list-style-type: none; 
-    padding-left: -10px;
-    background-color: green;
-}
-img {
-    width:40%;
-    float: right;
-}
-#box1{
-   /* height: 30%; 
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;*/
-  /*  justify-content: space-around; 
-    background-color: blueviolet;
-}
-/*#arbete ul img{
-    width: 40%;
-    /*float: left;
-}
-#arbete ul{
-    width:30%;
-    margin-left: 5px; 
-}
-/*#egentext{
-    clear: both;
-}*/
 /*@media all and (max-width: 800px){     /* t ex läsplattor */
    /* html, body{
         background-color: grey;
