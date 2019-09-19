@@ -2,7 +2,8 @@ html, body{
     margin:0px; padding:0;
     padding-left: 15px;
     padding-right: 15px;
-    background-color: pink;
+    max-width: 950px;
+  /*  background-color: pink;*/
 } 
 img {
     width:200px;
@@ -12,14 +13,14 @@ img {
 #container {
     display: flex;
     flex-wrap: wrap;
-    background-color: blue;
+   /* background-color: blue;*/
 }
 #bbx1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     list-style-type: none;
-    background-color: blueviolet;
+   /* background-color: blueviolet;*/
 }
 #bbx2 {
     display: flex;
@@ -30,10 +31,10 @@ ul {
 }
 #egentext {
     clear: both;
-    background-color: coral;
+   /* background-color: coral;*/
 }
 #merinfo {
-    background-color: burlywood;
+   /* background-color: burlywood;*/
 }
 a {
     text-decoration: none;
@@ -41,7 +42,7 @@ a {
 
 @media all and (max-width: 800px){     /* t ex läsplattor */
     html, body{
-        background-color: grey;
+       /* background-color: grey;*/
     } 
     img {
         width:150px;
@@ -50,14 +51,14 @@ a {
     } 
     #bbx2 p {
         margin:0;
-        background-color: cornflowerblue;
+       /* background-color: cornflowerblue;*/
     } 
 }
 @media only screen and (max-width: 360px){  /* smal skärm = små bilder */
     html, body{
         padding-left: 5px;
         padding-right: 5px;
-        background-color: turquoise;
+       /* background-color: turquoise;*/
     }
     img {
         width:100px;
@@ -66,6 +67,6 @@ a {
     } 
     #bbx2 p {
         margin:0;
-        background-color: cornflowerblue;
+      /*  background-color: cornflowerblue;*/
     }
 }
