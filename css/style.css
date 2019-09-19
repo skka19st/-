@@ -7,11 +7,12 @@ html, body{
 img {
     width:200px;
     margin-right: 10px;
+    margin-left: 10px;
 }
 #container {
     display: flex;
     flex-wrap: wrap;
-    background-color: brown
+    background-color: blue;
 }
 #bbx1 {
     display: flex;
@@ -21,70 +22,50 @@ img {
     background-color: blueviolet;
 }
 #bbx2 {
-    display: column;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
 }
 ul {
     list-style-type: none; 
- }
-#egentext{
+}
+#egentext {
     clear: both;
-    background-color: gray;
+    background-color: coral;
 }
 #merinfo {
-    background-color: burlywood
+    background-color: burlywood;
 }
 a {
     text-decoration: none;
 }
 
-/*@media all and (max-width: 800px){     /* t ex läsplattor */
-   /* html, body{
+@media all and (max-width: 800px){     /* t ex läsplattor */
+    html, body{
         background-color: grey;
-    }   
-}*/
+    } 
+    img {
+        width:150px;
+        margin-right: 5px;
+        margin-left: 10px;
+    } 
+    #bbx2 p {
+        margin:0;
+        background-color: cornflowerblue;
+    } 
+}
 @media only screen and (max-width: 360px){  /* smal skärm = små bilder */
-html, body{
-    margin:0px; padding:0;
-    padding: 0px;
-    font-size: 3px;
-    background-color: pink;
-} 
-#box1{
-    height: 30%; 
-    width: 100%;
-    padding: 2px;
-    /* display: flex;
-     flex-wrap: wrap;*/
-
-    /* flex-direction: column;
-     justify-content: space-around; */
-     background-color: red;
- }
- #box1 div img {
-    width:40px;
-   /* float: left;  */
-    background-color: blueviolet;
-   /* margin-right: 10px;
-    margin-top:10px; */
- }
-#box1 ul {
-    /* width: 25px;*/ 
-  /*  display: flex;
-    flex-wrap: wrap; */
-
-    background-color: green;
-}
-#box1 ul li {
-    width: 25px;
-    list-style-type: none;
-}
-
-#egentext{
-    clear: both;
-    padding: 5px;
-    margin-top: 5px;
-    margin-right: 5px;
-    background-color: blue;
-}
+    html, body{
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: turquoise;
+    }
+    img {
+        width:100px;
+        margin-right: 5px;
+        margin-left: 10px;
+    } 
+    #bbx2 p {
+        margin:0;
+        background-color: cornflowerblue;
+    }
 }
