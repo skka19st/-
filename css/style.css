@@ -7,8 +7,11 @@ html, body{
 } 
 img {
     width:200px;
-    margin-right: 10px;
+    margin-right: 30px;
     margin-left: 10px;
+    border: 5px; 
+    border-style: solid; 
+    border-color: cornflowerblue;
 }
 #container {
     display: flex;
@@ -25,8 +28,14 @@ img {
 #bbx2 {
     display: flex;
     flex-direction: column;
+    list-style-type: disc;
 }
-ul {
+#bbx2 li:first-child {
+    list-style-type: none;
+    padding-bottom: 5px;
+    font-size: 1.2em;
+}
+#merinfo ul {
     list-style-type: none; 
 }
 #egentext {
@@ -46,13 +55,17 @@ a {
     } 
     img {
         width:150px;
-        margin-right: 5px;
-        margin-left: 10px;
     } 
-    #bbx2 p {
-        margin:0;
-       /* background-color: cornflowerblue;*/
-    } 
+    #bbx2 {
+        display: flex;
+        flex-direction: column;
+        list-style-type: disc;
+    }
+    #bbx2 li:first-child {
+        list-style-type: none;
+        padding-bottom: 5px;
+        font-size: 1.2em;
+    }
 }
 @media only screen and (max-width: 360px){  /* smal skärm = små bilder */
     html, body{
